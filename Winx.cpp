@@ -8,7 +8,7 @@ void printBar()
 	cout<<"*";
 	
 	cout<<endl;
-	for (int i=0;i<9;i++)
+	for (int i=0;i<=9;i++)
 {	
 	if (i>2 && i<7)
 	cout<<"*";
@@ -20,15 +20,15 @@ cout<<endl;
 
 int main ()
 {
-	// printBar();
+	 printBar();
 	for (int i=0;i<5;i++)
 		cout<<"I love Pakistan."<<endl;
 	
 	cout<<endl;	
 	
-	// printBar();
+	 printBar();
 	
-	// Not Styling today
+	// have Styling today
 	
 	bool isTodayFriday;
 	isTodayFriday= true;
