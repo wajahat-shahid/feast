@@ -4,13 +4,13 @@ using namespace std;
 
 void printBar()
 {
-	for (int i=0;i<9;i++)
+	for (int i=0;i<=9;i++)
 	cout<<"*";
 	
 	cout<<endl;
 	for (int i=0;i<=9;i++)
 {	
-	if (i>2 && i<7)
+	if (i>2 && i<=7)
 	cout<<"*";
 	else
 	cout<<"-";
