@@ -63,6 +63,20 @@ void printBar()
 cout<<endl;
 }
 
+void nahanaChecker(){
+	bool isTodayFriday;
+	isTodayFriday= true;
+	if(isTodayFriday)
+	cout<<"Bhai Nahana Parey gaa";
+	else
+	cout<<"Khaire hi hia Cheetey";
+	
+	if(isTodayFriday)
+	cout<<"Bhai Nahana Parey gaa";
+	else
+	cout<<"Khaire hi hia Cheetey";
+}
+
 int main ()
 {
     int inputNum = 282, base = 16;
@@ -79,16 +93,5 @@ int main ()
 	 printBar();
 	
 	// have Styling today
-	
-	bool isTodayFriday;
-	isTodayFriday= true;
-	if(isTodayFriday)
-	cout<<"Bhai Nahana Parey gaa";
-	else
-	cout<<"Khaire hi hia Cheetey";
-	
-	if(isTodayFriday)
-	cout<<"Bhai Nahana Parey gaa";
-	else
-	cout<<"Khaire hi hia Cheetey";
+	nahanaChecker();
 }
